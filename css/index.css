@@ -1,0 +1,385 @@
+*{margin: 0;padding: 0;}
+html{ font-family: "Microsoft YaHei"; color:#333; font-size:100px;}
+html,body{width:100%;min-width:7.2rem;height:100%;}
+li{ list-style:none; }
+a{ text-decoration:none; color:#333; }
+a img{ border:0; }
+img{ vertical-align:middle;}
+table{border-collapse:collapse;border-spacing:0;}
+.clear{ *zoom:1; }
+.clear:after{ content:""; display:block; clear:both; }
+.fl{float: left}
+.fr{float: right}
+input {-webkit-appearance:none;outline: none}
+.main{width: 7.2rem;margin: 0 auto}
+.zg-wrap{margin: 0 auto;width: 7.2rem;}
+
+.zg_header{
+    height:0.5rem;
+    background: #1b1b1b;
+    overflow: hidden;
+}
+.zg_header h1{
+    float: left;
+    margin-left:0.1rem;
+    text-indent: -999rem;
+    width:2.05rem;
+    height:0.5rem;
+    background: url("../images/m1.jpg") no-repeat center;
+    -webkit-background-size: 2.05rem;
+    background-size: 2.05rem;
+}
+.zg_header p{
+    float: right;
+    margin-right: 0.1rem;
+}
+.zg_header p a{
+    display: block;
+    padding-left:0.4rem;
+    font: bold 0.16rem/0.5rem 'Microsoft YaHei';
+    color: #fff;
+}
+.zg_header p:nth-child(2) a{
+    background: url("../images/m2.jpg") no-repeat left center;
+    -webkit-background-size: 0.23rem;
+    background-size: 0.23rem;
+}
+.zg_header p:nth-child(3) a{
+    background: url("../images/m3.jpg") no-repeat left center;
+    -webkit-background-size: 0.3rem;
+    background-size: 0.3rem;
+}
+.zg-banner{
+    height:3.76rem;
+    background: url("../images/ban.jpg") no-repeat center;
+    -webkit-background-size: 7.2rem;
+    background-size: 7.2rem;
+    position: relative;
+}
+.zg-banner b{
+    position: absolute;
+    left:0.36rem;
+    bottom:0.74rem;
+    font:bold 0.4rem/0.4rem '微软雅黑';
+    color: #fff;
+}
+.zg-banner p{
+    position: absolute;
+    left:1rem;
+    bottom:0.3rem;
+    font:0.22rem/0.22rem '微软雅黑';
+    color: #fff;
+}
+h2{
+    font:bold 0.32rem/0.32rem '微软雅黑';
+    text-align: center;
+    background: url("../images/m4.png") no-repeat center;
+    -webkit-background-size: 6.84rem;
+    background-size: 6.84rem;
+    margin-top:0.4rem;
+    color: #ff6143;
+}
+form{
+    height:6.02rem;
+    background: url("../images/m5.jpg") no-repeat center;
+    -webkit-background-size: 6.95rem;
+    background-size: 6.95rem;
+    margin-top:0.38rem;
+    overflow: hidden;
+    display: block;
+}
+form div{
+    width: 5.18rem;
+    overflow: hidden;
+    margin: 0.19rem auto 0;
+}
+form div span{
+    float: left;
+    margin-left:0.3rem;
+    font:bold 0.22rem/0.67rem 'Microsoft Yahei';
+    color: #ec6941;
+}
+form div > input,form div > p,form div > select{
+    float: right;
+    margin-right: 0.24rem;
+    border:0.01rem solid #e3e3e3;
+    width:3.65rem;
+    height:0.65rem;
+    font-size:0.24rem;
+    text-indent: 1em;
+    overflow: hidden;
+    outline: none;
+}
+form div > p input{
+    float: left;
+    width:2.43rem;
+    height:0.65rem;
+    border:none;
+    font-size:0.24rem;
+    text-indent: 1em;
+    outline: none;
+}
+form div > p a {
+    float: left;
+    margin-top: 0.12rem;
+    width: 1.13rem;
+    height: 0.44rem;
+    background: #ff5b41;
+    border-radius: 0.02rem;
+    font: normal 0.18rem/0.44rem 'Microsoft Yahei';
+    color: #fff;
+    text-align: center;
+    text-indent: 0;
+}
+form button{
+    display: block;
+    margin: 0.3rem auto 0;
+    width:2.52rem;
+    height:0.6rem;
+    font:0.24rem/0.6rem 'Microsoft Yahei';
+    color: #fff;
+    text-align: center;
+    background: url("../images/m6.png") no-repeat 0 center #ff4b3c;
+    -webkit-background-size: 2.52rem;
+    background-size: 2.52rem;
+    border:none;
+    border-radius: 0.3rem;
+    text-indent: 1em;
+}
+.m1-cont2{
+    margin: 0.46rem auto 0;
+    background: #ff6143;
+    border-radius: 0.06rem;
+    overflow: hidden;
+}
+.m1-cont2 b{
+    display: block;
+    width:4.38rem;
+    height:0.72rem;
+    margin: 0.32rem auto 0;
+    background: #fff;
+    border-radius: 0.36rem;
+    text-align: center;
+    font:bold 0.4rem/0.72rem '微软雅黑';
+    color: #ec4141;
+}
+.m1-cont2 a{
+    display: block;
+    margin-top:0.3rem;
+}
+.m1-cont2 a img{
+    display: block;
+    width:6.6rem;
+    margin: 0 auto;
+}
+.m1-cont2 > img{
+    display: block;
+    width:6.6rem;
+    margin: 0.25rem auto;
+}
+.m2-cont1{
+    margin-top:0.2rem;
+    margin-left:0.08rem;
+    overflow: hidden;
+}
+.m2-cont1 li{
+    float: left;
+    margin-left:0.08rem;
+    margin-top:0.22rem;
+    width:2.25rem;
+    height:2.12rem;
+    background: #ff6143;
+    border-radius: 0.04rem;
+}
+.m2-cont1 li b{
+    display: block;
+    text-align: center;
+    font:bold 0.23rem/0.23rem '微软雅黑';
+    color: #fffc00;
+    margin-top:0.2rem;
+}
+.m2-cont1 li p{
+    margin-left:0.2rem;
+    width:1.84rem;
+    margin-top:0.2rem;
+    text-indent: 2em;
+    font:0.18rem/0.26rem '微软雅黑';
+    color: #fff;
+}
+.m2-cont2{
+    margin-left:-0.06rem;
+    margin-top:0.37rem;
+    overflow: hidden;
+}
+.m2-cont2 li{
+    float: left;
+    margin-left:0.22rem;
+    width:3.32rem;
+    height:3.37rem;
+    background: url("../images/m9.png") no-repeat center;
+    -webkit-background-size: 3.32rem;
+    background-size: 3.32rem;
+}
+.cont2-left > b{
+    display: block;
+    margin-left:0.26rem;
+    font:bold 0.2rem/0.26rem '微软雅黑';
+    color: #fff;
+    margin-top:0.8rem;
+}
+.cont2-left p{
+    font:0.2rem/0.2rem '微软雅黑';
+    color: #fff;
+    margin: 0.22rem 0 0 0.28rem;
+}
+.cont2-left div{
+    margin-top:0.18rem;
+    overflow: hidden;
+}
+.cont2-left div a{
+    float: left;
+    margin-left:0.24rem;
+    width:1.3rem;
+    height:0.4rem;
+    background: #ff3e38;
+    border-radius: 0.04rem;
+    font:0.18rem/0.4rem '微软雅黑';
+    color: #fffd5a;
+    text-align: center;
+}
+.cont2-right{
+    background: url("../images/m10.png") no-repeat center;
+    -webkit-background-size: 3.32rem;
+    background-size: 3.32rem;
+}
+.cont2-right > b{
+    display: block;
+    text-align: center;
+    font:bold 0.2rem/0.26rem '微软雅黑';
+    color: #fff;
+    margin-top:0.8rem;
+}
+.cont2-right p{
+    font:0.2rem/0.28rem '微软雅黑';
+    color: #fff;
+    text-align: center;
+    margin-top:0.25rem;
+}
+.cont2-right div{
+    margin-top:0.14rem;
+    margin-left:-0.06rem;
+    overflow: hidden;
+}
+.cont2-right div a{
+    display: block;
+    float: left;
+    margin-left:0.23rem;
+}
+.cont2-right div a img{
+    display: block;
+    width:1.39rem;
+}
+.zg-main3{
+    margin-top:0.5rem;
+    background: #ff6144;
+    overflow: hidden;
+}
+.btn-box{
+    width:6.74rem;
+    height:4.04rem;
+    background: #fff;
+    border-radius: 0.1rem;
+    margin: 0.3rem auto 0;
+    overflow: hidden;
+}
+.btn-box li{
+    float: left;
+    margin: 0.24rem 0 0 0.27rem;
+    border:0.01rem solid #ff3e38;
+    width:1.85rem;
+    height:0.45rem;
+    border-radius: 0.06rem;
+    text-align: center;
+    font:0.21rem/0.45rem '微软雅黑';
+    color: #ff3e38;
+}
+.btn-box li.on{
+    background: #ff3e38;
+    color: #fff;
+    font-weight:bold;
+}
+.show-wrap{
+    margin-top:0.1rem;
+}
+.show-box{
+    width:6.74rem;
+    height:1.75rem;
+    padding-top:0.15rem;
+    background: #fff;
+    border-radius: 0.1rem;
+    margin: 0.3rem auto 0;
+    overflow: hidden;
+    display: none;
+}
+.show-box p{
+    width:6rem;
+    font:0.22rem/0.28rem '微软雅黑';
+    margin-left:0.42rem;
+    margin-top:0.25rem;
+    color: #ff3e38;
+}
+.m3-cont3{
+    margin-top:0.4rem;
+    overflow: hidden;
+    padding-bottom:1.05rem;
+}
+.m3-cont3 dl{
+    float: left;
+    margin-left:0.36rem;
+    width:2.2rem;
+    overflow: hidden;
+}
+.m3-cont3 dl:nth-child(1){
+    margin-left:1.24rem;
+}
+.m3-cont3 dt img{
+    display: block;
+    margin: 0 auto;
+    width:0.74rem;
+}
+.m3-cont3 dt b{
+    display: block;
+    text-align: center;
+    font:bold 0.2rem/0.2rem '微软雅黑';
+    color: #fff;
+    margin-top:0.16rem;
+}
+.m3-cont3 dd img{
+    display: block;
+    width:2.19rem;
+    margin-top:0.3rem;
+}
+.foot{
+    position: fixed;
+    bottom:0;
+    width:7.2rem;
+    height:0.66rem;
+    background: #242424;
+    overflow: hidden;
+    z-index:999;
+}
+.foot a{
+    float: left;
+    width:3.2rem;
+    font:0.22rem/0.66rem '微软雅黑';
+    text-align: center;
+    padding-left:0.4rem;
+}
+.foot a:first-child{
+    background: url("../images/m17.jpg") no-repeat 1.1rem center;
+    color: #fff;
+}
+.foot a:last-child{
+    background: url("../images/m18.jpg") no-repeat 1.1rem center #f2f2f2;
+    color: #ff3334;
+}
